@@ -1,0 +1,88 @@
+NPCs.TownNPCs.Zoologist.NewParty: I had to modify the party hat so it would fit between my ears. Now I can wear a hat just like everyone else!
+
+Configs: {
+	PartyParticipationClientConfig: {
+		DisplayName: Party Participation Client Config
+
+		Headers: {
+			WearPartyHat: "[i:PartyHat] Wear Party Hat"
+			TownNPCChat: "[i:PartyBundleOfBalloonTile] Town NPC Chat"
+		}
+
+		Zoologist: {
+			Label: "[i:FoxEars] {$NPCName.BestiaryGirl}"
+			Tooltip:
+				'''
+				Will make the Zoologist wear a party hat during parties.
+				Default value: On
+				'''
+		}
+
+		OldMan: {
+			Label: "[i:ClothierVoodooDoll] {$NPCName.OldMan}"
+			Tooltip:
+				'''
+				Will make the Old Man wear a party hat during parties.
+				Default value: On
+				'''
+		}
+
+		TaxCollector: {
+			Label: "[i:TaxCollectorsStickOfDoom] {$NPCName.TaxCollector}"
+			Tooltip:
+				'''
+				Will make the Tax Collector wear a party hat during parties.
+				Default value: On
+				'''
+		}
+
+		SkeletonMerchant: {
+			Label: "[i:Skull] {$NPCName.SkeletonMerchant}"
+			Tooltip:
+				'''
+				Will make the Skeleton Merchant wear a party hat during parties.
+				Default value: On
+				'''
+		}
+
+		ShimmerDryad: {
+			Label: "[i:DemonHorns] Shimmered {$NPCName.Dryad}"
+			Tooltip:
+				'''
+				Will make the Shimmered Dryad wear a party hat during parties.
+				Default value: On
+				'''
+		}
+
+		AllModdedTownNPCs: {
+			Label: "[i:REK] All Modded Town NPCs"
+			Tooltip:
+				'''
+				Will make all Modded Town NPCs wear a party hat, whether they were meant to or not.
+				Default value: Off
+				'''
+		}
+
+		AllTownNPCsInBestiary: {
+			Label: "[i:Book] All Town NPCs In Bestiary"
+			Tooltip:
+				'''
+				Makes all Town NPCs wear a party hat in the Bestiary while there is a party.
+				This does not cause the portraits to switch to their party sprite so some Town NPCs look a little weird.
+				Default value: Off
+				'''
+		}
+
+		ZoologistPartyChat: {
+			Label: "[i:SillyBalloonTiedPink] {$NPCName.BestiaryGirl} Party Chat"
+			Tooltip:
+				'''
+				Replaces the Zoologist's quote
+				    "{$BestiaryGirlSpecialText.Party}"
+				with
+				    "{$Mods.PartyParticipation.NPCs.TownNPCs.Zoologist.NewParty}"
+				Default value: On
+				'''
+		}
+	}
+}

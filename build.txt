@@ -1,0 +1,9 @@
+displayName = Party Participation
+author = Rijam
+version = 1.0
+buildIgnore = .vs\*, obj\*, bin\*, *.xcf, .git\*, git\*, Effects\fxcompiler
+homepage = https://github.com/Rijam/PartyParticipation
+hideCode = false
+hideResources = false
+includeSource = true
+side = Client
